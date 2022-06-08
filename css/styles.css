@@ -13,9 +13,16 @@ body {
     color: #2E4057;
 }
 
-
 img {
     width: 300px;
+}
+
+a {
+    color: #EFF8E2
+}
+
+a:hover {
+    text-decoration: none;
 }
 
 
@@ -34,6 +41,16 @@ __________________________________ */
     border: 5px solid #2E4057;
 }
 
+.projects .btn {
+    background: #2E4057;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.projects .btn:hover {
+    background: rgba(46, 64, 87, 70%);
+}
 
 /* Work Experience
 __________________________________ */
