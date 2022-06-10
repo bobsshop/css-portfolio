@@ -11,6 +11,8 @@ BABY EYES BLUE   #A3CEF1
 __________________________________ */
 body {
     color: #2E4057;
+    margin: 0;
+    padding: 0;
 }
 
 img {
@@ -23,6 +25,11 @@ a {
 
 a:hover {
     text-decoration: none;
+}
+
+.content-wrap {
+    width: 1000px;
+    margin: 0 auto;
 }
 
 
