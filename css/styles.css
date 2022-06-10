@@ -18,7 +18,7 @@ img {
 }
 
 a {
-    color: #EFF8E2
+    color: #FAF9F6
 }
 
 a:hover {
@@ -37,12 +37,13 @@ header {
 /* Projects
 __________________________________ */
 .projects {
-    background-color: #8CD867;
+    background-color: #EFF8E2;
     border: 5px solid #2E4057;
 }
 
 .projects .btn {
     background: #2E4057;
+    color: #FAF9F6;
     text-decoration: none;
     padding: 8px;
     border-radius: 4px;
@@ -52,6 +53,10 @@ __________________________________ */
     background: rgba(46, 64, 87, 70%);
 }
 
+.projects a {
+    color: #A3CEF1
+}
+
 /* Work Experience
 __________________________________ */
 .work-experience {
@@ -59,6 +64,9 @@ __________________________________ */
     border: 5px solid #2E4057;
 }
 
+.work-experience a {
+    color: #FAF9F6;
+}
 
 
 /* Education
@@ -73,6 +81,10 @@ __________________________________ */
 /* Contact Info
 __________________________________ */
 footer {
-    background-color: #32CD32;
+    background-color: #75876c;
     border: 5px solid #2E4057;
+}
+
+.contact-info a {
+    color: #FAF9F6;
 }
