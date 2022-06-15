@@ -13,7 +13,7 @@ body {
     color: #2E4057;
     margin: 0;
     padding: 0;
-    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 img {
@@ -30,10 +30,12 @@ a:hover {
 
 h1 {
     margin-top: 0;
+    font-family: 'Kdam Thmor Pro', sans-serif;
 }
 
 h2 {
     margin: 0;
+    font-family: 'Kdam Thmor Pro', sans-serif;
 }
 
 .content-wrap {
@@ -62,7 +64,6 @@ __________________________________ */
     text-decoration: none;
     padding: 8px;
     border-radius: 4px;
-    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .projects .btn:hover {
