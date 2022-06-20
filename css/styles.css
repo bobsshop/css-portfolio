@@ -9,6 +9,16 @@ BABY EYES BLUE   #A3CEF1
 
 /* Global Styles
 __________________________________ */
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
 body {
     color: #2E4057;
     margin: 0;
@@ -78,6 +88,23 @@ __________________________________ */
 
 .projects a {
     color: #2AB7CA
+}
+
+.more-information {
+    margin-bottom: 50px;
+}
+
+.project-item {
+    overflow: hidden;
+}
+
+.project-item img {
+    float: left;
+    margin-right: 20px;
+}
+
+.project-item h3 {
+    margin-top: 0;
 }
 
 /* Work Experience
