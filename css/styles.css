@@ -113,8 +113,16 @@ __________________________________ */
     background-color: #A188A6;
 }
 
-.work-experience a {
+.work-experience .btn {
+    background: #2E4057;
     color: #FAF9F6;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.work-experience .btn:hover {
+    background: rgba(46, 64, 87, 70%);
 }
 
 
