@@ -113,6 +113,12 @@ __________________________________ */
     background-color: #A188A6;
 }
 
+.job-item {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 20px;
+}
+
 .work-experience .btn {
     background: #2E4057;
     color: #FAF9F6;
@@ -123,10 +129,6 @@ __________________________________ */
 
 .work-experience .btn:hover {
     background: rgba(46, 64, 87, 70%);
-}
-
-.media-list li {
-    list-style: none;
 }
 
 /* Education
