@@ -117,6 +117,13 @@ __________________________________ */
     display: grid;
     grid-template-columns: 1fr 2fr;
     column-gap: 20px;
+    border-bottom: 2px dashed #2E4057
+}
+
+.job-item-editor {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 20px;
 }
 
 .work-experience .btn {
