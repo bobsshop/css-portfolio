@@ -55,7 +55,8 @@ h2 {
 }
 
 .content-wrap {
-    width: 1000px;
+    max-width: 1000px;
+    width: 85%;
     margin: 0 auto;
     padding: 30px 0;
 }
@@ -155,7 +156,15 @@ __________________________________ */
 /* Education
 __________________________________ */
 .education {
-    background-color: #2AB7CA;
+    background-image: url(../images/sharon-mccutcheon-unsplash.jpg);
+    background-size: cover;
+    background-position: top right;
+    padding: 70px;
+}
+
+.education p {
+    color: black;
+    width: 60%;
 }
 
 
