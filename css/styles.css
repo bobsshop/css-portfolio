@@ -72,6 +72,15 @@ h3~p {
     margin: 0;
 }
 
+.divider>section {
+    border-bottom: 2px dashed #2E4057;
+    padding: 25px 0;
+}
+
+.divider>section:last-of-type {
+    border-bottom: none;
+}
+
 
 /* Profile
 __________________________________ */
@@ -126,13 +135,6 @@ __________________________________ */
 }
 
 .job-item {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    column-gap: 20px;
-    border-bottom: 2px dashed #2E4057
-}
-
-.job-item-editor {
     display: grid;
     grid-template-columns: 1fr 2fr;
     column-gap: 20px;
