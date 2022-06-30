@@ -179,6 +179,12 @@ __________________________________ */
         column-gap: 20px;
     }
 
+    .education {
+        background-image: url(../images/sharon-mccutcheon-unsplash.jpg);
+        background-size: cover;
+        background-position: top right;
+    }
+
 }
 
 @media screen and (max-width:768px) {
