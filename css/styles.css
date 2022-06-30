@@ -120,11 +120,6 @@ __________________________________ */
     overflow: hidden;
 }
 
-.project-item img {
-    float: left;
-    margin-right: 20px;
-}
-
 .project-item h3 {
     margin-top: 0;
 }
@@ -133,12 +128,6 @@ __________________________________ */
 __________________________________ */
 .work-experience {
     background-color: #A188A6;
-}
-
-.job-item {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    column-gap: 20px;
 }
 
 .work-experience .btn {
@@ -156,10 +145,7 @@ __________________________________ */
 /* Education
 __________________________________ */
 .education {
-    background-image: url(../images/sharon-mccutcheon-unsplash.jpg);
-    background-size: cover;
-    background-position: top right;
-    padding: 70px;
+    background-color: #2AB7CA;
 }
 
 .education p {
@@ -176,4 +162,27 @@ footer {
 
 .contact-list a {
     color: #FAF9F6;
+}
+
+/* Responsive
+__________________________________ */
+
+@media screen and (min-width:769px) {
+    .project-item img {
+        float: left;
+        margin-right: 20px;
+    }
+
+    .job-item {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        column-gap: 20px;
+    }
+
+    .education {
+        background-image: url(../images/sharon-mccutcheon-unsplash.jpg);
+        background-size: cover;
+        background-position: top right;
+        padding: 70px;
+    }
 }
