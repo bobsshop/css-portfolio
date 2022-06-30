@@ -178,6 +178,7 @@ __________________________________ */
         grid-template-columns: 1fr 2fr;
         column-gap: 20px;
     }
+
 }
 
 @media screen and (max-width:768px) {
