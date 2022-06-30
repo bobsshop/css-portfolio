@@ -179,10 +179,25 @@ __________________________________ */
         column-gap: 20px;
     }
 
+    .job-item img {
+        float: left;
+        margin-right: 20px;
+    }
+
     .education {
         background-image: url(../images/sharon-mccutcheon-unsplash.jpg);
         background-size: cover;
         background-position: top right;
         padding: 70px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    h1 {
+        font-size: 55px;
+    }
+
+    h2 {
+        font-size: 30px;
     }
 }
